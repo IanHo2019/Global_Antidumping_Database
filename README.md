@@ -1,5 +1,5 @@
 # Global Antidumping Database ([Bown, 2016](https://www.chadpbown.com/global-antidumping-database/))
-This repository shows how to clean the **Global Antidumping Database (GAD)** and do some summary statistics. Comments on better coding or errors are welcomed. **Contact:** ianhe@ou.edu.
+This repository shows how to clean the **Global Antidumping Database (GAD)** and do some summary statistics. Comments on better coding or errors are welcomed. **Contact:** [ianhe2019@ou.edu](mailto:ianhe2019@ou.edu?subject=[GitHub]%20GAD).
 
 The GAD was published by Chad P. Bown and collects detailed information on the national use of antidumping (AD) duties over the world. Fortunately, the database is freely available; unfortunately, Bown claimed that he no longer updates the data. The version I cleaned is version 6.0, updated in June 2016 and containing data through 2015Q4.
 
