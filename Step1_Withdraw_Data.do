@@ -28,7 +28,6 @@ foreach var in `ctylist'{
 	save "$dtadir\AD-`var'-Products.dta", replace
 }
 
-* error message: r(198)
 * Peru
 import excel "$rawdir\GAD-PER.xls", sheet("AD-PER-Master") cellrange(A1:AI128) firstrow case(lower) allstring clear
 drop if v_number == ""
