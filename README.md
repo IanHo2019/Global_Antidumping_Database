@@ -29,7 +29,7 @@ I don't clean or reconstruct the dataset when I am withdrawing data; this is the
 
 ### Note on Withdrawal
 * I save 34 raw data files in a folder named "GAD". To run my coding ([here](./Step1_Withdraw_Data.do)), you need change the file path in the do file.
-* I use the `foreach` loop to withdraw data from Excel sheets; however, data on Peru (**PER**) and Philippines (**PHL**) cannot be withdrawn succefully if they are included in the loop [I get an error message: r(198)]. That's why I withdraw their data independently.
+* I use the `foreach` loop to withdraw data from Excel sheets; however, data on Peru (**PER**) and Philippines (**PHL**) cannot be withdrawn succefully if they are included in the loop [I get an error message: `r(198)`]. That's why I withdraw their data independently.
 * I use `merge m:1` to merge data from Products and Master sheets. "Products" is in memory (called *master file* in Stata language) and "Master" is the *using file*. Note that an AD case may investigate multiple products from the same foreign country.
 * The key date variables are stored in "dd/mm/yyyy" or "mm/dd/yyyy" format in the raw database. They include
   * Date of initiation.
