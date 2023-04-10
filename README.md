@@ -38,5 +38,9 @@ I don't clean or reconstruct the dataset when I am withdrawing data; this is the
   * Dates of imposition of final AD measure.
   * Date of revocation of AD measure.
 
-### Note on Construction
+### Note on Construction of Dataset
 * My first step in constructing a dataset is always drop those useless variables; especially in a big dataset, this action could reduce Stata running time a lot.
+* It's important to clean the country/area names and drop observations without HS code information. These two variables are usually the key variables for merging datasets. Note that the most disaggregated level of HS code we can use to merge datasets is 6-digit; this is why I generate a variable `hs06` to save this information.
+* Although information on final AD measure imposed is stored in a variable named `f_ad_duty`, data files for some countries/regions (e.g., Australia, Canada, and Taiwan) save this information in variables with different names.
+* The GAD contains data usually from 1980s to 2010s. Some research may not use all years; for example, in my coding I only select the data between 2000 and 2009. In trade research, it's rare to use data with a daily frequency, so I write codes for converting the date variable format from "date" to "year-month" and "year".
+* I use a very *rude* method to drop the repetitive observations (at country-product-initial-year level). I recommend you should find a more reseasonable way to drop those repetitive observations, depending on your research questions.
