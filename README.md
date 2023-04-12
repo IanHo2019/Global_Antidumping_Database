@@ -9,7 +9,7 @@ According to the WTO, before successfully imposing an AD duty, the importing cou
   1. the export firm is actually **dumping** its products;
   2. the dumpling behavior is causing **injury** to the market in the importing country.
 
-The process of investigating the dumping and injury is called **antidumping investigation**, which is the responsibility of one or two government agencies. A **single-track** AD investigative process refers to a system in which there is only one government agency carrying out the dumping and injury investigations at the same time, and a **dual-track** process is a system in which two independent government agencies handle the AD dumping and injury investigations. Most countries follows a single track procedure; the typical countries that follows a dual-track procedure are China and the US.
+The process of investigating the dumping and injury is called **antidumping investigation**, which is the responsibility of one or two government agencies. A **single-track** AD investigative process refers to a system in which there is only one government agency carrying out the dumping and injury investigations at the same time, and a **dual-track** process is a system in which two independent government agencies handle the AD dumping and injury investigations. Most countries follows a single track procedure; the typical countries that follow a dual-track procedure are China and the US.
 
 
 ## Introduction to the Database
