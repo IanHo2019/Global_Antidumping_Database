@@ -45,7 +45,7 @@ I don't clean or reconstruct the dataset when I am withdrawing data; this is the
 * The GAD contains data usually from 1980s to 2010s. Some research may not use all years; for example, in my coding I only select the data between 2000 and 2009. In trade research, it's rare to use data with a daily frequency, so I write codes for converting the date variable format from "date" to "year-month" and "year".
 * I use a very *rude* method to drop the repetitive observations (at country-product-initial-year level). I recommend you should find a more reseasonable way to drop those repetitive observations, depending on your research questions.
 
-### Note on Summary Statistics
+## Summary Statistics
 In the part of summary statistics, I contruct two figures and two LaTeX tables:
   * A [figure](./Figures/Number_of_Products_over_Time.pdf) presenting number of products over time. The first panel shows number of products under AD investigations, and the number is counted at region-product level and in the year of initiation. The second panel shows number of products receiving final AD duties, and yhe number is counted at region-product level and in the year of imposition.
   * A [figure](./Figures/Number_of_Products_across_Industries.pdf) presenting number of products across industries. I use 2-digit HS code to proxy for industries.
