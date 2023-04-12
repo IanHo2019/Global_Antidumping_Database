@@ -72,7 +72,7 @@ graph combine "$figdir\Number of Investigations.gph" "$figdir\Number of Impositi
 	col(1) iscale(.5) ///
 	plotregion(fcolor(white) lcolor(white)) ///
 	graphregion(fcolor(white) lcolor(white))
-graph export "$figdir\Number_of_Products.pdf", replace
+graph export "$figdir\Number_of_Products_over_Time.pdf", replace
 
 
 
@@ -200,4 +200,4 @@ graph combine "$figdir\Industries_Receiving_Investigation.gph" "$figdir\Products
 	col(1) iscale(.5) ///
 	plotregion(fcolor(white) lcolor(white)) ///
 	graphregion(fcolor(white) lcolor(white))
-graph export "$figdir\Industries.pdf", replace
+graph export "$figdir\Number_of_Products_across_Industries.pdf", replace
