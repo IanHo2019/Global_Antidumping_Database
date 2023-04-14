@@ -51,3 +51,9 @@ In the part of summary statistics, I contruct two figures and two LaTeX tables:
   * A [figure](./Figures/Number_of_Products_across_Industries.pdf) presenting number of products across industries. I use 2-digit HS code to proxy for industries.
   * A [table](./Tables/Table_GAD.tex) reporting number of products receiving AD investigations and final AD duties, respectively, across regions. The rate of products receiving affirmative decisions is also reported.
   * A [table](./Tables/Table_duration.tex) reporting the average length of AD investigations across regions. The type of AD investigative process (single-track or dual-track) is also reported.
+
+Note that I use an external Stata package to export the LaTeX tables: `dataout`. You can download it by running the following code.
+```stata
+ssc install dataout, replace
+```
+A disadvantage of the `dataout` command is that it will automatically add some LaTeX codes such as `\documentclass[]{article}` in the preamble. Usually, when you include it in your LaTeX file, please delete all codes except the `tabular` environment; otherwise, your pdf file may not be produced successfully.
