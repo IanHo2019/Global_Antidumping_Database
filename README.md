@@ -56,4 +56,4 @@ Note that I use an external Stata package to export the LaTeX tables: `dataout`.
 ```stata
 ssc install dataout, replace
 ```
-A disadvantage of the `dataout` command is that it will automatically add some LaTeX codes such as `\documentclass[]{article}` in the preamble. Usually, when you include it in your LaTeX file, please delete all codes except the `tabular` environment; otherwise, your pdf file may not be produced successfully.
+A disadvantage of the `dataout` command is that it automatically adds some LaTeX codes such as `\documentclass[]{article}` in the preamble (and I do not find the way to prevent this default action). Usually, when you include it in your LaTeX file, please delete all codes except the `tabular` environment; otherwise, your pdf file may not be produced successfully.
